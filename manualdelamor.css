@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+header{
+    display: flex;
+    background-image: url(./IMAGENES_MANUAL_DEL_AMOR/header.jpg);
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 50px;
+    color: #f3eeee;
+    font-family: serif;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 30px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(234, 231, 238);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img{
+    width: 200px;
+}
+
+h2{
+        font-size: 40px;
+        color: rgb(8, 6, 7);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+}
+
+
+h1{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    color: rgb(22, 54, 43);
+    font-family: "Pacifico", normal;
+}
+
+p{
+    background-color: rgb(255, 228, 196);
+    font-size: 25px;
+}
+
+#historias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(224, 179, 123);
+    top: 50;
+    bottom: 50;
+}
+
+#que_es_el_amor{
+    font-size: 30px;
+    color: rgb(46, 42, 42);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.listado ul li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.listado a{
+    display: flex;
+    justify-content: center;
+}
+
+.listado ul li a{
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(252, 219, 167);
+    color: rgb(155, 67, 118);
+    font-size: 25px;
+}
+
+footer{
+    background-image: url(./IMAGENES_MANUAL_DEL_AMOR/footer.jpg);
+}
+
+footer h3{
+    font-size: 25px;
+    color: #f3eeee;
+    font-family: 'Times New Roman', Times, serif;
+}
